@@ -28,7 +28,11 @@ typecode_to_type = {
     'h': ctypes.c_short, 'H': ctypes.c_ushort,
     'i': ctypes.c_int,   'I': ctypes.c_uint,
     'l': ctypes.c_long,  'L': ctypes.c_ulong,
-    'f': ctypes.c_float, 'd': ctypes.c_double
+    'f': ctypes.c_float, 'd': ctypes.c_double,
+    'll': ctypes.c_longlong, 'LL': ctypes.c_ulonglong,
+    'ld': ctypes.c_longdouble, 'bl': ctypes.c_bool,
+    'cp': ctypes.c_char_p, 'up': ctypes.c_wchar_p
+    'vp': ctypes.c_void_p
     }
 
 #
